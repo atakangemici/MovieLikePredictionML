@@ -9,6 +9,7 @@ y = df['Likes']
 regr = linear_model.LinearRegression()
 regr.fit(x, y)
 
-likes = regr.predict([[913268, 2988]])
+likes = regr.predict([[2564903, 22149]])
 
 print('Tahmini Beğenilme : ' , format(int(likes),',d'))
+
